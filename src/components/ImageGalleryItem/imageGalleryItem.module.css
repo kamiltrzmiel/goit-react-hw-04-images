@@ -1,0 +1,11 @@
+.imageGalleryItem {
+  display: inline-block;
+  width: 30%;
+  margin-right: 3.33%;
+  margin-bottom: 20px;
+  vertical-align: top;
+}
+
+.imageGalleryItem img {
+  border-radius: 4px;
+}
