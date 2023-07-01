@@ -18,6 +18,7 @@ const Modal = ({ src, alt, onClick }) => {
       window.removeEventListener('keydown', closeModal);
       window.removeEventListener('mousedown', closeModal);
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
